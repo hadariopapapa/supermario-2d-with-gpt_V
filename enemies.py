@@ -80,4 +80,4 @@ class FlyingEnemy:
 
     def draw(self, screen, camera):
         if self.alive:
-            pygame.draw.rect(screen, BLUE, camera.apply(self.rect))
+            pygame.draw.rect(screen, BLUE, camera.apply(self.rect)) 

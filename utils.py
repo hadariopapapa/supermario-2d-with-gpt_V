@@ -27,4 +27,4 @@ def draw_hit_flash(screen, duration):
     if duration > 0:
         overlay = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
         overlay.fill((255, 0, 0, 80))
-        screen.blit(overlay, (0, 0))
+        screen.blit(overlay, (0, 0)) 

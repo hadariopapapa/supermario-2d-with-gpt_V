@@ -63,4 +63,4 @@ class EntityManager:
         if self.door:
             import pygame
             pygame.draw.rect(screen, BLUE, camera.apply(self.door))
-            draw_text(screen, "EXIT", camera.apply_pos((self.door.x, self.door.y - 30)), BLACK, font)
+            draw_text(screen, "EXIT", camera.apply_pos((self.door.x, self.door.y - 30)), BLACK, font) 

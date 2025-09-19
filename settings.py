@@ -20,4 +20,4 @@ PURPLE   = (200, 50, 200)  # Power-up
 DARK_RED = (150, 0, 0)     # Boss
 
 # Fonts
-FONT = None  # set in main.py after pygame.init()
+FONT = None  # set in main.py after pygame.init() 

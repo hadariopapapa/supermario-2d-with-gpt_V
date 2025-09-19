@@ -19,4 +19,4 @@ def draw_end_messages(screen, font, game_over, victory):
         draw_text(screen, "Press R to Restart", (WIDTH//2, HEIGHT//2), BLACK, font, center=True)
     elif victory:
         draw_text(screen, "YOU WIN!", (WIDTH//2, HEIGHT//2 - 100), GREEN, font, center=True)
-        draw_text(screen, "Press N for Next Level", (WIDTH//2, HEIGHT//2), BLACK, font, center=True)
+        draw_text(screen, "Press N for Next Level", (WIDTH//2, HEIGHT//2), BLACK, font, center=True) 

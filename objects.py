@@ -30,4 +30,4 @@ class PowerUp:
         self.rect = pygame.Rect(x+10, y, 30, 30)
 
     def draw(self, screen, camera):
-        pygame.draw.rect(screen, PURPLE, camera.apply(self.rect))
+        pygame.draw.rect(screen, PURPLE, camera.apply(self.rect)) 

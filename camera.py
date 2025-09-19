@@ -20,4 +20,4 @@ class Camera:
 
     def apply_pos(self, pos):
         """Convert world (x, y) into screen (x, y)."""
-        return (pos[0] - self.x, pos[1] - self.y)
+        return (pos[0] - self.x, pos[1] - self.y) 

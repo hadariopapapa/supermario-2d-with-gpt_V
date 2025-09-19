@@ -246,4 +246,4 @@ class GameScene(Scene):
 
     def draw(self, screen):
         self.draw_world(screen)
-        pygame.display.flip()
+        pygame.display.flip() 

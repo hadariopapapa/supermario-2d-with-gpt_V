@@ -59,4 +59,4 @@ def load_level(level_map, height=HEIGHT):
     if has_boss:
         door = None
 
-    return boxes, enemies, powerups, door, ground_length, has_boss
+    return boxes, enemies, powerups, door, ground_length, has_boss 

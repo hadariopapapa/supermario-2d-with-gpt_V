@@ -195,4 +195,4 @@ def check_enemy_box(enemy, boxes, ground_height=HEIGHT-50):
             else:
                 enemy.rect.left = box.rect.right
             enemy.dir *= -1
-            break
+            break 

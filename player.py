@@ -81,4 +81,4 @@ class Player:
         pygame.draw.rect(screen, BLACK, camera.apply(self.rect))
         for fb in self.fireballs:
             r = camera.apply(fb["rect"])
-            pygame.draw.circle(screen, ORANGE, r.center, r.width // 2)
+            pygame.draw.circle(screen, ORANGE, r.center, r.width // 2) 
